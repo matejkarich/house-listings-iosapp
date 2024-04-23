@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9CC581E2BA6755B00CCBC11 /* HouseListingsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC581D2BA6755B00CCBC11 /* HouseListingsAppApp.swift */; };
+		C9CC58202BA6755B00CCBC11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC581F2BA6755B00CCBC11 /* ContentView.swift */; };
+		C9CC58222BA6755D00CCBC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9CC58212BA6755D00CCBC11 /* Assets.xcassets */; };
+		C9CC58252BA6755D00CCBC11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9CC58242BA6755D00CCBC11 /* Preview Assets.xcassets */; };
+		C9CC582F2BA6755D00CCBC11 /* HouseListingsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC582E2BA6755D00CCBC11 /* HouseListingsAppTests.swift */; };
+		C9CC58392BA6755D00CCBC11 /* HouseListingsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC58382BA6755D00CCBC11 /* HouseListingsAppUITests.swift */; };
+		C9CC583B2BA6755D00CCBC11 /* HouseListingsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC583A2BA6755D00CCBC11 /* HouseListingsAppUITestsLaunchTests.swift */; };
+		C9CC58482BA6758300CCBC11 /* ListingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC58472BA6758300CCBC11 /* ListingModel.swift */; };
+		C9CC584A2BA6761200CCBC11 /* ListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC58492BA6761200CCBC11 /* ListingViewModel.swift */; };
+		C9CC58A92BA8EA1800CCBC11 /* HouseListingsCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9CC58A72BA8EA1800CCBC11 /* HouseListingsCoreData.xcdatamodeld */; };
+		C9CC58BC2BA95FBB00CCBC11 /* ListingEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC58BA2BA95FBB00CCBC11 /* ListingEntity+CoreDataClass.swift */; };
+		C9CC58BD2BA95FBB00CCBC11 /* ListingEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CC58BB2BA95FBB00CCBC11 /* ListingEntity+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9CC582B2BA6755D00CCBC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CC58122BA6755B00CCBC11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9CC58192BA6755B00CCBC11;
+			remoteInfo = HouseListingsApp;
+		};
+		C9CC58352BA6755D00CCBC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CC58122BA6755B00CCBC11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9CC58192BA6755B00CCBC11;
+			remoteInfo = HouseListingsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9CC581A2BA6755B00CCBC11 /* HouseListingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseListingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CC581D2BA6755B00CCBC11 /* HouseListingsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListingsAppApp.swift; sourceTree = "<group>"; };
+		C9CC581F2BA6755B00CCBC11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9CC58212BA6755D00CCBC11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9CC58242BA6755D00CCBC11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9CC582A2BA6755D00CCBC11 /* HouseListingsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseListingsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CC582E2BA6755D00CCBC11 /* HouseListingsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListingsAppTests.swift; sourceTree = "<group>"; };
+		C9CC58342BA6755D00CCBC11 /* HouseListingsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseListingsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CC58382BA6755D00CCBC11 /* HouseListingsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListingsAppUITests.swift; sourceTree = "<group>"; };
+		C9CC583A2BA6755D00CCBC11 /* HouseListingsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListingsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9CC58472BA6758300CCBC11 /* ListingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingModel.swift; sourceTree = "<group>"; };
+		C9CC58492BA6761200CCBC11 /* ListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewModel.swift; sourceTree = "<group>"; };
+		C9CC58A82BA8EA1800CCBC11 /* HouseListingsCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HouseListingsCoreData.xcdatamodel; sourceTree = "<group>"; };
+		C9CC58BA2BA95FBB00CCBC11 /* ListingEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListingEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C9CC58BB2BA95FBB00CCBC11 /* ListingEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListingEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9CC58172BA6755B00CCBC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CC58272BA6755D00CCBC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CC58312BA6755D00CCBC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9CC58112BA6755B00CCBC11 = {
+			isa = PBXGroup;
+			children = (
+				C9CC58BA2BA95FBB00CCBC11 /* ListingEntity+CoreDataClass.swift */,
+				C9CC58BB2BA95FBB00CCBC11 /* ListingEntity+CoreDataProperties.swift */,
+				C9CC581C2BA6755B00CCBC11 /* HouseListingsApp */,
+				C9CC582D2BA6755D00CCBC11 /* HouseListingsAppTests */,
+				C9CC58372BA6755D00CCBC11 /* HouseListingsAppUITests */,
+				C9CC581B2BA6755B00CCBC11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9CC581B2BA6755B00CCBC11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC581A2BA6755B00CCBC11 /* HouseListingsApp.app */,
+				C9CC582A2BA6755D00CCBC11 /* HouseListingsAppTests.xctest */,
+				C9CC58342BA6755D00CCBC11 /* HouseListingsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9CC581C2BA6755B00CCBC11 /* HouseListingsApp */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC58472BA6758300CCBC11 /* ListingModel.swift */,
+				C9CC58492BA6761200CCBC11 /* ListingViewModel.swift */,
+				C9CC581F2BA6755B00CCBC11 /* ContentView.swift */,
+				C9CC581D2BA6755B00CCBC11 /* HouseListingsAppApp.swift */,
+				C9CC58212BA6755D00CCBC11 /* Assets.xcassets */,
+				C9CC58232BA6755D00CCBC11 /* Preview Content */,
+			);
+			path = HouseListingsApp;
+			sourceTree = "<group>";
+		};
+		C9CC58232BA6755D00CCBC11 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC58A72BA8EA1800CCBC11 /* HouseListingsCoreData.xcdatamodeld */,
+				C9CC58242BA6755D00CCBC11 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9CC582D2BA6755D00CCBC11 /* HouseListingsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC582E2BA6755D00CCBC11 /* HouseListingsAppTests.swift */,
+			);
+			path = HouseListingsAppTests;
+			sourceTree = "<group>";
+		};
+		C9CC58372BA6755D00CCBC11 /* HouseListingsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9CC58382BA6755D00CCBC11 /* HouseListingsAppUITests.swift */,
+				C9CC583A2BA6755D00CCBC11 /* HouseListingsAppUITestsLaunchTests.swift */,
+			);
+			path = HouseListingsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9CC58192BA6755B00CCBC11 /* HouseListingsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CC583E2BA6755D00CCBC11 /* Build configuration list for PBXNativeTarget "HouseListingsApp" */;
+			buildPhases = (
+				C9CC58162BA6755B00CCBC11 /* Sources */,
+				C9CC58172BA6755B00CCBC11 /* Frameworks */,
+				C9CC58182BA6755B00CCBC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseListingsApp;
+			productName = HouseListingsApp;
+			productReference = C9CC581A2BA6755B00CCBC11 /* HouseListingsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9CC58292BA6755D00CCBC11 /* HouseListingsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CC58412BA6755D00CCBC11 /* Build configuration list for PBXNativeTarget "HouseListingsAppTests" */;
+			buildPhases = (
+				C9CC58262BA6755D00CCBC11 /* Sources */,
+				C9CC58272BA6755D00CCBC11 /* Frameworks */,
+				C9CC58282BA6755D00CCBC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9CC582C2BA6755D00CCBC11 /* PBXTargetDependency */,
+			);
+			name = HouseListingsAppTests;
+			productName = HouseListingsAppTests;
+			productReference = C9CC582A2BA6755D00CCBC11 /* HouseListingsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9CC58332BA6755D00CCBC11 /* HouseListingsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CC58442BA6755D00CCBC11 /* Build configuration list for PBXNativeTarget "HouseListingsAppUITests" */;
+			buildPhases = (
+				C9CC58302BA6755D00CCBC11 /* Sources */,
+				C9CC58312BA6755D00CCBC11 /* Frameworks */,
+				C9CC58322BA6755D00CCBC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9CC58362BA6755D00CCBC11 /* PBXTargetDependency */,
+			);
+			name = HouseListingsAppUITests;
+			productName = HouseListingsAppUITests;
+			productReference = C9CC58342BA6755D00CCBC11 /* HouseListingsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9CC58122BA6755B00CCBC11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C9CC58192BA6755B00CCBC11 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C9CC58292BA6755D00CCBC11 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C9CC58192BA6755B00CCBC11;
+					};
+					C9CC58332BA6755D00CCBC11 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C9CC58192BA6755B00CCBC11;
+					};
+				};
+			};
+			buildConfigurationList = C9CC58152BA6755B00CCBC11 /* Build configuration list for PBXProject "HouseListingsApp" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9CC58112BA6755B00CCBC11;
+			productRefGroup = C9CC581B2BA6755B00CCBC11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9CC58192BA6755B00CCBC11 /* HouseListingsApp */,
+				C9CC58292BA6755D00CCBC11 /* HouseListingsAppTests */,
+				C9CC58332BA6755D00CCBC11 /* HouseListingsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9CC58182BA6755B00CCBC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CC58252BA6755D00CCBC11 /* Preview Assets.xcassets in Resources */,
+				C9CC58222BA6755D00CCBC11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CC58282BA6755D00CCBC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CC58322BA6755D00CCBC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9CC58162BA6755B00CCBC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CC58A92BA8EA1800CCBC11 /* HouseListingsCoreData.xcdatamodeld in Sources */,
+				C9CC58482BA6758300CCBC11 /* ListingModel.swift in Sources */,
+				C9CC58202BA6755B00CCBC11 /* ContentView.swift in Sources */,
+				C9CC58BC2BA95FBB00CCBC11 /* ListingEntity+CoreDataClass.swift in Sources */,
+				C9CC581E2BA6755B00CCBC11 /* HouseListingsAppApp.swift in Sources */,
+				C9CC584A2BA6761200CCBC11 /* ListingViewModel.swift in Sources */,
+				C9CC58BD2BA95FBB00CCBC11 /* ListingEntity+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CC58262BA6755D00CCBC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CC582F2BA6755D00CCBC11 /* HouseListingsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CC58302BA6755D00CCBC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CC583B2BA6755D00CCBC11 /* HouseListingsAppUITestsLaunchTests.swift in Sources */,
+				C9CC58392BA6755D00CCBC11 /* HouseListingsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9CC582C2BA6755D00CCBC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9CC58192BA6755B00CCBC11 /* HouseListingsApp */;
+			targetProxy = C9CC582B2BA6755D00CCBC11 /* PBXContainerItemProxy */;
+		};
+		C9CC58362BA6755D00CCBC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9CC58192BA6755B00CCBC11 /* HouseListingsApp */;
+			targetProxy = C9CC58352BA6755D00CCBC11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9CC583C2BA6755D00CCBC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9CC583D2BA6755D00CCBC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9CC583F2BA6755D00CCBC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HouseListingsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "My Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use Location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.HouseListingsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9CC58402BA6755D00CCBC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HouseListingsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "My Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Use Location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.HouseListingsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9CC58422BA6755D00CCBC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.HouseListingsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseListingsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HouseListingsApp";
+			};
+			name = Debug;
+		};
+		C9CC58432BA6755D00CCBC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.HouseListingsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseListingsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HouseListingsApp";
+			};
+			name = Release;
+		};
+		C9CC58452BA6755D00CCBC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.HouseListingsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HouseListingsApp;
+			};
+			name = Debug;
+		};
+		C9CC58462BA6755D00CCBC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asu.HouseListingsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HouseListingsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9CC58152BA6755B00CCBC11 /* Build configuration list for PBXProject "HouseListingsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CC583C2BA6755D00CCBC11 /* Debug */,
+				C9CC583D2BA6755D00CCBC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CC583E2BA6755D00CCBC11 /* Build configuration list for PBXNativeTarget "HouseListingsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CC583F2BA6755D00CCBC11 /* Debug */,
+				C9CC58402BA6755D00CCBC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CC58412BA6755D00CCBC11 /* Build configuration list for PBXNativeTarget "HouseListingsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CC58422BA6755D00CCBC11 /* Debug */,
+				C9CC58432BA6755D00CCBC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CC58442BA6755D00CCBC11 /* Build configuration list for PBXNativeTarget "HouseListingsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CC58452BA6755D00CCBC11 /* Debug */,
+				C9CC58462BA6755D00CCBC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9CC58A72BA8EA1800CCBC11 /* HouseListingsCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9CC58A82BA8EA1800CCBC11 /* HouseListingsCoreData.xcdatamodel */,
+			);
+			currentVersion = C9CC58A82BA8EA1800CCBC11 /* HouseListingsCoreData.xcdatamodel */;
+			path = HouseListingsCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C9CC58122BA6755B00CCBC11 /* Project object */;
+}
